@@ -1,0 +1,43 @@
+li{
+    color:rgb(163, 37, 37)
+}
+h1{
+    font-size: 36px;
+    color: #0048AF;
+}
+h2{
+    font-size: 28px;
+    color: #005F48
+}
+strong{
+    font-size: 25px;
+    color: #005F48;
+}
+main{
+    background-color: #aac8c9;
+    border: 2px solid #aac8c9;
+}
+header{
+    background-color: #6abcff;
+}
+footer{
+    background-color: #055edd;
+}
+img{
+    border: 5px dashed blue;
+}
+#pfooter{
+    color: whitesmoke;
+}
+.red-text{
+    color: red;
+}
+.small-text{
+    font-size: 10px;
+}
+.big-text{
+    font-size: 40px;
+}
+.yellow-text{
+    color: yellow;
+}

@@ -1,0 +1,25 @@
+.date{
+    text-transform: uppercase;
+    color: #008080;
+    font-family: 'Roboto';
+}
+.post{
+    background-color: #FFFAFA;
+    margin: 0px auto 0px auto;
+    padding: 20px 40px 30px 40px;
+}
+.blog-text{
+    font-family: 'Open Sans';
+}
+.blog-title{
+    font-family: 'Montserrat';
+}
+hr{
+    background-color: #FFFAFA;
+    margin: 0px auto 0px auto;
+}
+body{
+    width: 70%;
+    height: 100%;
+    margin: 0px auto 0px auto;
+}

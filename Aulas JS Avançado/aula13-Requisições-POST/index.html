@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Requisições POST com JS</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js" defer></script>
+</head>
+<body>
+    <main>
+        <form action="https://localhost:3000/games" method="post">
+            <h1>Register Game</h1>
+            <label for="name"><b>Game Name:</b></label>
+            <br>
+            <input type="text" name="name" id="name">
+            <br><br>
+            <label for="gender"><b>Game Gender:</b></label>
+            <br>
+            <input type="text" name="gender" id="gender">
+            <br><br>
+            <label for="publisher"><b>Publisher:</b></label>
+            <br>
+            <input type="text" name="publisher" id="publisher">
+            <br><br>
+            <button>Save Game</button>
+        </form>
+        <div>
+            <h1>Games</h1>
+            <section id="games"></section>
+        </div>
+    </main>
+</body>
+</html>

@@ -1,0 +1,21 @@
+* { /*Adiciona o estilo a todos os elementos*/
+    background-color: rgb(209, 207, 207);
+}
+
+ol a{ /* Adiciona o estilo ao elemento que está dentro do primeiro parametro independente da camada */
+    border:2px solid red;
+}
+li > a{ /* Adiciona o estilo somente ao elemento que está dentro do primeiro parametro diretamente */
+    color: green;
+}
+h3 + ul{ /* Adiciona o estilo ao elemento que está seguido do outro, não dentro */
+    background-color: blue;
+}
+
+a[href='https://cursos.onebitcode.com/area/produto/item/1021299']{ /*adiciona o estilo para uma tag mais especifica */
+    font-size: 40px;
+}
+
+li:nth-of-type(odd){ /* adiciona o estilo as tags que obedeçam a condição entre () */
+    background-color: red;
+}

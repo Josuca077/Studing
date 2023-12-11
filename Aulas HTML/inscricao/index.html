@@ -1,0 +1,64 @@
+<html>
+
+<head>
+    Exercício 5: Formulário de Inscrição
+</head>
+
+<body>
+    <h1>Formulário de inscrição</h1>
+
+    <form action="#" method="post">
+        <div>
+            <label for="nome">Nome:</label><br>
+            <input type="text" name="nome" id="nome" placeholder="Ex: Josué" required>
+        <br><br>
+        </div>
+        
+        <div>
+            <label for="email">Email:</label><br>
+            <input type="email" name="email" id="email" placeholder="Ex: josue@email.com" required>
+        <br><br>
+        </div>
+
+        <div>
+            <label for="wpp">WhatsApp:</label><br>
+            <input type="tel" name="wpp" id="wpp" pattern="[0-9]{5}-[0-9]{4}" placeholder="Ex: 99999-9999" required>
+            <br><br>    
+        </div>
+        
+        <div>
+            <label>Área de atuação:</label><br>
+
+            <input type="radio" name="atuacao" id="desenvolvimento" required>
+            <label for="desenvolvimento">Desenvolvimento</label>
+
+            <input type="radio" name="atuacao" id="QA" required>
+            <label for="QA">Quality Assurance (QA)</label>
+
+            <input type="radio" name="atuacao" id="AD">
+            <label for="AD">Análise de Dados</label>
+
+            <input type="radio" name="atuacao" id="infraestrutura">
+            <label for="infraestrutura">Infraestrutura</label>
+            
+            <br><br>
+        </div>
+
+        <div>
+            <label for="observacoes">Observações:</label><br>
+            <textarea name="observacoes" id="observacoes"></textarea>
+        <br><br>
+        </div>
+
+        <div>
+            <input type="checkbox" name="novidades" id="novidades">
+            <label for="novidades">Desejo receber novidades e ofertas por email.</label>
+        <br><br>
+        </div>
+
+        <button type="submit">Enviar</button>
+    </form>
+
+</body>
+
+</html>

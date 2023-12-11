@@ -1,0 +1,28 @@
+{
+  "games": [
+    {
+      "title": "Minecraft",
+      "gender": "SandBox",
+      "publisher": "Mojang",
+      "id": 1
+    },
+    {
+      "title": "Call of Duty",
+      "gender": "FPS",
+      "publisher": "Activision",
+      "id": 2
+    },
+    {
+      "title": "Cs: go",
+      "gender": "FPS",
+      "publisher": "Valve",
+      "id": 3
+    },
+    {
+      "title": "fedas",
+      "gender": "sdfsd",
+      "publisher": "fsdfs",
+      "id": 4
+    }
+  ]
+}

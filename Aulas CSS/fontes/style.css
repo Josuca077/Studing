@@ -1,0 +1,14 @@
+p{
+    font-family: 'Ruboto', sans-serif;
+    font-size: 40px;
+    font-weight: 100;
+    line-height: 1;
+    text-align: justify;
+}
+
+h1{
+    text-align: center;
+    text-decoration: underline;
+    font-family: 'Press Start 2P', cursive;
+    margin: 200px 100px 200px 100px;
+}

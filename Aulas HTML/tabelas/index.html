@@ -1,0 +1,82 @@
+<html>
+
+<head>
+    <title>Tabelas no HTML</title>
+</head>
+
+<body>
+    <h1>Tabela no HTML</h1>
+
+    <div>
+        <h2>Tabela Normal</h2>
+        <table border="1">
+            <tr>
+                <th>Nome</th>
+                <th>Idade</th>
+                <th>Profissão</th>
+            </tr>
+
+            <tr>
+                <td>João</td>
+                <td>29</td>
+                <td>Engenheiro</td>
+            </tr>
+            <tr>
+                <td>Maria</td>
+                <td>30</td>
+                <td>Cozinheira</td>
+            </tr>
+        </table>
+        <hr>
+    </div>
+
+    <div>
+        <h2>Tabela com Cabeçalho</h2>
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>Nome</th>
+                    <th>Idade</th>
+                    <th>Profissão</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td>João</td>
+                    <td>29</td>
+                    <td>Engenheiro</td>
+                </tr>
+                <tr>
+                    <td>Maria</td>
+                    <td>30</td>
+                    <td>Cozinheira</td>
+                </tr>
+            </tbody>
+        </table>
+        <hr>
+    </div>
+
+    <div>
+        <h2>Tabela com Células Personalizadas</h2>
+        <table border="1">
+            <thead>
+                <tr>
+                    <th colspan="2">Informações Pessoais</th>
+                    <th>Contato</th>
+                </tr>
+                <tr>
+                    <td>Nome:</td>
+                    <td>João</td>
+                    <td rowspan="2">Telefone: 123456789</td>
+                </tr>
+                <tr>
+                    <td>Idade:</td>
+                    <td>29</td>
+                </tr>
+            </thead>
+        </table>
+    </div>
+</body>
+
+</html>
