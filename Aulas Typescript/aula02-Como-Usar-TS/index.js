@@ -1,13 +1,13 @@
-function setPilot(newPilot, spaceship) {
+const setPilot = async (newPilot, spaceship) => {
     spaceship.pilot = newPilot;
-}
-function accelerate(speed, spaceship) {
+};
+const accelerate = async (speed, spaceship) => {
     spaceship.speed += speed;
-}
-function inMission(spaceship) {
+};
+const inMission = async (spaceship) => {
     spaceship.inMission = true;
-}
-var spaceship = {
+};
+const spaceship = {
     name: '',
     pilot: '',
     speed: 0,

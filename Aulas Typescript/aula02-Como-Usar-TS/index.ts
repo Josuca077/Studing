@@ -1,12 +1,12 @@
-const setPilot = (newPilot: string, spaceship: { name: string; pilot: string; speed: number; inMission: boolean }) => {
+const setPilot = async (newPilot: string, spaceship: { name: string; pilot: string; speed: number; inMission: boolean }) => {
     spaceship.pilot = newPilot
 }
 
-const accelerate = (speed: number, spaceship: { name: string; pilot: string; speed: number; inMission: boolean }) => {
+const accelerate = async (speed: number, spaceship: { name: string; pilot: string; speed: number; inMission: boolean }) => {
     spaceship.speed += speed
 }
 
-const inMission = (spaceship: { name: string; pilot: string; speed: number; inMission: boolean }) => {
+const inMission = async (spaceship: { name: string; pilot: string; speed: number; inMission: boolean }) => {
     spaceship.inMission = true
 }
 
