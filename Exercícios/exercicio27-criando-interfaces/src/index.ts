@@ -144,20 +144,29 @@ function reposSum () {
 
 function topFive () {
 
+    usersList.sort((user1: User, user2: User) => {
+        return user2.public_repos - user1.public_repos
+    })
+
+    console.log(usersList)
+
     console.log(
 `The top 5 users with most public repositories are:
 
-1. ${top[0]}
-2. ${top[1]}
-3. ${top[2]}
-4. ${top[3]}
-5. ${top[4]}`
+1. ${usersList[0].login} with ${usersList[0].public_repos} repos
+2. ${usersList[1].login} with ${usersList[1].public_repos} repos
+3. ${usersList[2].login} with ${usersList[2].public_repos} repos
+4. ${usersList[3].login} with ${usersList[3].public_repos} repos
+5. ${usersList[4].login} with ${usersList[4].public_repos} repos`
                 )
 
 }
 
 getUser("JosueAFCosta")
 getUser("EnzinK")
+getUser("julianaconde")
+getUser("isaacpontes")
+getUser("Guilhermehzf")
 listUsers()
 console.log(usersList)
 
@@ -165,5 +174,6 @@ setTimeout(() => {
 
     showInfo("JosueAFCosta")
     reposSum()
+    topFive()
 
 }, 1000 * 3)
