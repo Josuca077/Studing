@@ -1,8 +1,8 @@
+import styles from "./Title.module.css"
+
 export default function Title () {
     return (
-        <h1 style={{
-            fontSize: "2.8vw"
-        }}>
+        <h1 className={styles.title}>
             Pôster: Star Wars (1977)
         </h1>
     )

@@ -7,4 +7,12 @@
     border-radius: 1vw;
     border: none;
     padding: 1vw;
+    transition: .3s;
+    font-weight: 700;
+}
+
+.button:hover{
+    cursor: pointer;
+    margin-left: .8vw;
+    margin-right: 37.2vw;
 }
