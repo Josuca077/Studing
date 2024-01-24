@@ -1,0 +1,22 @@
+.wrapper {
+    border-radius: .5rem;
+
+    margin-left: 1vw;
+    padding: 1vh 1vw;
+
+    background-image: linear-gradient(to right, #104f8d, #3a8adc);
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, .7);
+
+    text-decoration: none;
+    text-align: center;
+    color: #eeeeee;
+
+    font-weight: 900;
+    font-size: 1rem;
+
+    transition: .3s;
+}
+
+.wrapper:hover {
+    padding: 1.3vh 1.2vw;
+}
