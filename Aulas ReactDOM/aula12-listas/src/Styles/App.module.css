@@ -1,0 +1,9 @@
+.app {
+    padding: "0 4rem 4rem"
+}
+
+.games {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4rem;
+}
